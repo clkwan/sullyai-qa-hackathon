@@ -142,12 +142,15 @@ This project uses **Pytest** for API integration tests with structured logging c
    npm run dev
    npm run seed  # if needed, to reload seed data
 2. Activate your Python virtual environment:
-   ```source venv/bin/activate
+   ```bash
+   source venv/bin/activate
 3. Run the tests:
-   ```pytest
+   ```bash
+   pytest
 4. Open the HTML report:
    open report.html
 
+```mermaid
 flowchart TD
     A[Seed Data - Users, Hotels, Rooms] --> B[API Server - Express + SQLite]
     B --> C[Pytest Test Suite]
