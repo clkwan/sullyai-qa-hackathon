@@ -1,0 +1,6 @@
+pytest
+requests
+pytest-html
+logging
+uuid
+datetime
